@@ -1,0 +1,26 @@
+header {
+    position: fixed;
+    width: 100%;
+    background-color:  rgba(0, 0, 0, 0.5) !important;
+    z-index: 1;
+}
+
+.navbar-brand,
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover,
+.navbar-brand:hover{
+    color: #e3caad !important;
+}
+
+.nav-link:last-child{
+    color: #e3caad !important;
+}
+
+.nav-link:last-child:hover{
+    color: white !important;
+    transform: scale(1.1);
+}
+
