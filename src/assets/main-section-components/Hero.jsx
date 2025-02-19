@@ -1,5 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap"
-import '../styles/main.css'
+import '../../index.css'
 
 const Hero = () => {
 

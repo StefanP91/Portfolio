@@ -1,5 +1,5 @@
 import { Container, Nav, Navbar, NavbarToggle } from "react-bootstrap"
-import '../styles/header.css'
+import '../../index.css'
 const Header = () => {
     return (
         <header>

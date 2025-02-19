@@ -1,5 +1,5 @@
 
-import '../styles/footer.css'
+import '../../index.css'
 import { Container, Row, Col } from 'react-bootstrap';
 import { FaGithub } from "react-icons/fa";
 import { BsLinkedin } from "react-icons/bs";

@@ -4,6 +4,8 @@ import { FaGithub } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import { BsLinkedin } from "react-icons/bs";
 
+import '../../index.css'
+
 
 const ContactMe = () => {
     return (
