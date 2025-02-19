@@ -1,4 +1,4 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 import '../styles/footer.css'
 import { Container, Row, Col } from 'react-bootstrap';
 import { FaGithub } from "react-icons/fa";

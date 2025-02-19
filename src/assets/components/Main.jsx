@@ -1,5 +1,4 @@
-import { Container } from "react-bootstrap"
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 import Hero from "../main-section-components/Hero"
 import AboutMe from "../main-section-components/About-me";
 import Projects from "../main-section-components/Projects";

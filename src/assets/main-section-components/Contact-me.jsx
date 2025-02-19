@@ -1,5 +1,4 @@
 import { Container, Row, Col } from "react-bootstrap"
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { MdEmail, MdOutlinePhoneAndroid } from "react-icons/md";
 import { FaGithub } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";

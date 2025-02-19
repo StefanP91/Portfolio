@@ -1,6 +1,5 @@
 import { useEffect } from "react";
 import { Card, Col, Container, Row } from "react-bootstrap"
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { FaHtml5, FaCss3, FaReact, FaBootstrap, FaGitAlt, FaGithub, FaPhp } from "react-icons/fa";
 import { RiJavascriptFill, RiNextjsFill } from "react-icons/ri";
 import { SiXdadevelopers } from "react-icons/si";

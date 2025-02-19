@@ -1,5 +1,4 @@
 import { Container, Nav, Navbar, NavbarToggle } from "react-bootstrap"
-import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/header.css'
 const Header = () => {
     return (
