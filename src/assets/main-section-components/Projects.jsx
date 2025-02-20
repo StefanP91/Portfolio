@@ -16,11 +16,42 @@ const Projects = () => {
     }, []);
     const projects = [
         {
+            name: 'City of Miami',
+            description: 'Website for department of economic innovation and development of City of Miami',
+            languages: 'HTML, CSS, JavaScript, Bootstrap',
+            link: 'https://cityofmiami.netlify.app/',
+            img: 'images/city-of-miami.png',
+        },
+        {
             name: 'ZFK-Veles',
             description: 'Website for female football club from Veles, Macedonia',
             languages: 'HTML, CSS, Bootstrap',
             link: 'https://stefanp91.github.io/ZFK-Veles-/',
             img: 'images/zfk-borec.png',
+        },
+
+        {
+            name: 'Landing Page CH',
+            description: 'Landing page for Creative Hub Macedonia',
+            languages: 'HTML, CSS, Bootstrap, JavaScript',
+            link: 'https://landing-page-ch.netlify.app/',
+            img: 'images/landing-page-ch.png',
+        },
+
+        {
+            name: 'Real Estate',
+            description: 'PHP project for real estate agency',
+            languages: 'PHP, SQL, MySQL, Bootstrap, JavaScript',
+            link: '',
+            img: 'images/real-estate.png',
+        },
+
+        {
+            name: 'Web Shop',
+            description: 'Full Stack project for Web Shop',
+            languages: 'HTML, CSS, JavaScript, Bootstrap, PHP, SQL, MySQL',
+            link: '',
+            img: '',
         },
 
         {
@@ -32,11 +63,42 @@ const Projects = () => {
         },
 
         {
-            name: 'Digital Marketing',
+            name: 'Digital Marketing ver.1',
             description: 'Web page for Creative Hub Kosovo',
-            languages: 'HTML, CSS, Bootstrap',
-            link: 'https://creativehubkos.com/digital-marketing/',
+            languages: 'HTML, CSS, JavaScript, Bootstrap',
+            link: 'https://digital-marketing-ver-1.netlify.app/',
             img: 'images/digital-marketing.png',
+        },
+        {
+            name: 'Digital Marketing ver.2',
+            description: 'Web page for Creative Hub Kosovo',
+            languages: 'HTML, CSS, JavaScript, Bootstrap',
+            link: 'https://digital-marketing-ver-2.netlify.app/',
+            img: 'images/digital-marketing-2.png',
+        },
+
+        {
+            name: 'Front-end',
+            description: 'Web page for Creative Hub Kosovo',
+            languages: 'HTML, CSS, JavaScript, Bootstrap',
+            link: 'https://front-end-chk.netlify.app/',
+            img: 'images/front-end.png',
+        },
+
+        {
+            name: 'Human Resources',
+            description: 'Web page for Creative Hub Kosovo',
+            languages: 'HTML, CSS, JavaScript, Bootstrap',
+            link: 'https://hr-chk.netlify.app/',
+            img: 'images/hr.png',
+        },
+
+        {
+            name: 'Data Science',
+            description: 'Web page for Creative Hub Kosovo',
+            languages: 'HTML, CSS, JavaScript, Bootstrap',
+            link: 'https://data-science-chk.netlify.app/',
+            img: 'images/data-science.png',
         },
 
         {

@@ -1,13 +1,15 @@
 import { useEffect } from "react";
 import { Card, Col, Container, Row } from "react-bootstrap"
-import { FaHtml5, FaCss3, FaReact, FaBootstrap, FaGitAlt, FaGithub, FaPhp } from "react-icons/fa";
-import { RiJavascriptFill, RiNextjsFill } from "react-icons/ri";
-import { SiXdadevelopers } from "react-icons/si";
+
+import { FaHtml5, FaCss3, FaReact, FaBootstrap, FaGitAlt, FaGithub, FaPhp, FaLaravel } from "react-icons/fa";
+import { RiJavascriptFill } from "react-icons/ri";
+import { SiXdadevelopers, SiMysql } from "react-icons/si";
+import { BsFiletypeSql } from "react-icons/bs";
+
 import AOS from 'aos';
+
 import 'aos/dist/aos.css';
 import '../../index.css'
-
-
 
 
 const AboutMe = () => {
@@ -29,7 +31,7 @@ const AboutMe = () => {
                         I'm <span className="hero-name"></span>
                     </p>
                     <p className="about-me-description">
-                        A front-end developer with a passion for creating beautiful, functional, responsive and SEO Optimized web applications.
+                        A full-stack developer with a passion for creating beautiful, functional, responsive and SEO Optimized web applications.
                     </p>
 
                     <h1 className="about-me-subheader">Skills</h1>
@@ -97,7 +99,7 @@ const AboutMe = () => {
                             <Col md={3}>
                                 <Card>
                                     <Card.Body>
-                                        <Card.Title><RiNextjsFill /> Next.js</Card.Title>
+                                        <Card.Title><FaPhp /> PHP</Card.Title>
                                     </Card.Body>
                                 </Card>
                             </Col>
@@ -108,8 +110,7 @@ const AboutMe = () => {
                             <Col md={3}>
                                 <Card>
                                     <Card.Body>
-                                         <Card.Title><SiXdadevelopers /> Web Development</Card.Title>
-                                        
+                                         <Card.Title><BsFiletypeSql /> SQL</Card.Title>                            
                                     </Card.Body>
                                 </Card>
                             </Col>
@@ -117,7 +118,7 @@ const AboutMe = () => {
                             <Col md={3}>
                                 <Card>
                                     <Card.Body>
-                                        <Card.Title> IT Project Management</Card.Title>
+                                        <Card.Title><SiMysql /> MySQL</Card.Title>
                                     </Card.Body>
                                 </Card>
                             </Col>
@@ -125,7 +126,7 @@ const AboutMe = () => {
                             <Col md={3}>
                                 <Card>
                                     <Card.Body>
-                                        <Card.Title>Account Management</Card.Title>
+                                         <Card.Title><SiXdadevelopers /> Web Development</Card.Title>                            
                                     </Card.Body>
                                 </Card>
                             </Col>
@@ -133,12 +134,58 @@ const AboutMe = () => {
                             <Col md={3}>
                                 <Card className="card-learning">
                                     <Card.Body>
-                                        <Card.Title><FaPhp /> PHP</Card.Title>
+                                        <Card.Title><FaLaravel /> Laravel</Card.Title>
                                     </Card.Body>
                                 </Card>
                             </Col>
                         </Row>
 
+                    </div>
+                    
+                    <h1 className="about-me-subheader mt-5">Education</h1>
+                    <div>
+                    <Row data-aos="fade-up" data-aos-duration="1500">
+                        <Col md={6}>
+                            <h2 className="text-white">Front-end Development</h2>
+                            <Card>
+                                <Card.Body>
+                                    
+                                </Card.Body>
+                            </Card>
+                        </Col>
+
+                        <Col md={6}>
+                            <h2 className="text-white">Back-end Development</h2>
+                            <Card>
+                                <Card.Body>
+                                    <img src="images/back-end-certificate.jpg" alt="back-end-certificate" className="img-fluid" />
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                        
+                    </Row>
+                    </div>
+
+                    <h1 className="about-me-subheader mt-5">Experience</h1>
+                    <div>
+                    <Row data-aos="fade-right" data-aos-duration="1500">
+                        <Col md={6} className="offset-md-3">
+                            <Card>
+                                <Card.Body>
+                                    <ul>
+                                        <h4>Creative Hub</h4> 
+                                        <li className="text-start">
+                                            Junior Front-end Developer (Intern) 08.2024 - 11.2024
+                                        </li>
+
+                                        <li className="text-start">
+                                            Junior Front-end Developer 12.2024 - Present
+                                        </li>
+                                    </ul>
+                                </Card.Body>
+                            </Card>
+                        </Col>                      
+                    </Row>
                     </div>
                 
                 </Container>

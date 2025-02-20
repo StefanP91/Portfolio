@@ -141,19 +141,6 @@ a{
   box-shadow: 0 4px 8px 0 rgba(227, 202, 173, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
 }
 
-.card:hover{
-  animation: flip 0.5s linear;
-}
-
-@keyframes flip {
-  0% {
-      transform: rotateX(0);
-  }
-  100% {
-      transform: rotateX(360deg);
-  }
-}
-
 .card-learning::after{
   content: 'Learning...';
   position: absolute;
