@@ -39,6 +39,14 @@ const Projects = () => {
         },
 
         {
+            name: 'Miami Tech for Good',
+            description: 'Landing page for Miami Tech for Good',
+            languages: 'HTML, CSS, Bootstrap, JavaScript',
+            link: 'https://miami-tech-for-good.netlify.app/',
+            img: 'images/miami-tech-for-good.png',
+        },
+
+        {
             name: 'Real Estate',
             description: 'PHP project for real estate agency',
             languages: 'PHP, SQL, MySQL, Bootstrap, JavaScript',
