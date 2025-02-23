@@ -57,7 +57,7 @@ const Projects = () => {
         {
             name: 'Web Shop',
             description: 'Full Stack project for Web Shop',
-            languages: 'HTML, CSS, JavaScript, Bootstrap, PHP, SQL, MySQL',
+            languages: 'HTML, CSS, React, Bootstrap, PHP, SQL, MySQL',
             link: '',
             img: '',
         },
