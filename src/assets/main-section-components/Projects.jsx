@@ -50,7 +50,7 @@ const Projects = () => {
             name: 'Real Estate',
             description: 'PHP project for real estate agency',
             languages: 'PHP, SQL, MySQL, Bootstrap, JavaScript',
-            link: 'http://real-estate-project.free.nf/',
+            link: 'https://real-estate-project.free.nf/',
             img: 'images/real-estate.png',
         },
 
