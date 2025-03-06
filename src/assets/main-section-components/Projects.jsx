@@ -59,7 +59,7 @@ const Projects = () => {
             description: 'Full Stack project for Web Shop',
             languages: 'HTML, CSS, React, Bootstrap, PHP, SQL, MySQL',
             link: 'https://webshop.free.nf/',
-            img: 'webshop.png',
+            img: 'images/webshop.png',
         },
 
         {
