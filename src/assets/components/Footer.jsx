@@ -35,7 +35,7 @@ const Footer = () => {
                 
             </div>
             <div className="sub-footer">
-                <span>© 2024 Stefan Panov. All rights reserved.</span>
+                <span>© 2025 Stefan Panov. All rights reserved.</span>
             </div>
         </footer>
     
