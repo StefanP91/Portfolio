@@ -3,11 +3,11 @@ import '../../index.css'
 const Header = () => {
     return (
         <header>
-            <Navbar>
+            <Navbar expand="lg" className="navbar">
                 <Container>
                     <Navbar.Brand href="#">Portfolio</Navbar.Brand>
 
-                    <NavbarToggle aria-controls="navbarNav" />
+                    <NavbarToggle aria-controls="navbarNav" className="custom-toggler"/>
 
                     <Navbar.Collapse id="navbarNav" className="justify-content-end"> 
                         <Nav className="ms-auto">

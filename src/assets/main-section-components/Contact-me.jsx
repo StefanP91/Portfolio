@@ -53,7 +53,7 @@ const ContactMe = () => {
                 <Container>
                     <h1 className="contact-header">Contact Me</h1>
 
-                    <Row>
+                    <Row className="g-3">
                         <Col md={6}>
                             <div className="contact-info">
                                 <h2>Contact Info</h2>

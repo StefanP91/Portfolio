@@ -9,7 +9,7 @@ const Footer = () => {
         <footer>
             <div className="footer">
                 <Container>
-                    <Row>
+                    <Row className='g-3'>
                         <Col md={4}>
                             <h3 className='footer-name'>Stefan Panov</h3>
                             <span className='footer-position'>Full-Stack Developer</span>

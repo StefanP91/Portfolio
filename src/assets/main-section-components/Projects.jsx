@@ -170,7 +170,7 @@ const Projects = () => {
                 <Container>
                     <h1 className="project-header">Projects</h1>
                     <Row>
-                        <Col md={3}>
+                        <Col xs={12} md={3}>
                             <div className="projects-left-side">
 
                                 <ul className="project-list">
@@ -187,7 +187,7 @@ const Projects = () => {
                                 </ul>
                             </div>
                         </Col>
-                        <Col md={9}>
+                        <Col xs={12} md={9}>
                             <div className="projects-right-side">
                                 {selectedProject ? (
                                     <Project project={selectedProject}  />
