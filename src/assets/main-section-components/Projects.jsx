@@ -63,6 +63,14 @@ const Projects = () => {
         },
 
         {
+            name: 'E Shop',
+            description: 'Website for local shop',
+            languages: 'HTML, CSS, Bootstrap, PHP, SQL, MySQL',
+            link: 'https://platfromshop.rf.gd/',
+            img: 'images/e-shop.png',
+        },
+
+        {
             name: 'Detect-ion',
             description: 'Landing page for Detect-ion',
             languages: 'HTML, CSS, Bootstrap, JavaScript',
