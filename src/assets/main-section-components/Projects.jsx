@@ -133,6 +133,22 @@ const Projects = () => {
             img: 'images/cities.png',
         },
 
+        {
+            name: 'Business Analytics',
+            description: 'Landing page for Business Analytics Course',
+            languages: 'HTML, CSS, Bootstrap, JavaScript',
+            link: 'https://business-analytics-course.netlify.app/',
+            img: 'images/ba-course.png',
+        },
+
+        {
+            name: 'Recruitment Course',
+            description: 'Landing page for Recruitment Course',
+            languages: 'HTML, CSS, Bootstrap, JavaScript',
+            link: 'https://recruitment-course.netlify.app/',
+            img: 'images/recruitment-course.png',
+        },
+
         
     ]
 
