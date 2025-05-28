@@ -148,6 +148,13 @@ const Projects = () => {
             link: 'https://recruitment-course.netlify.app/',
             img: 'images/recruitment-course.png',
         },
+        {
+            name: 'Project Management',
+            description: 'Landing page for AI Project Management Course',
+            languages: 'HTML, CSS, Bootstrap, JavaScript',
+            link: 'https://chk-project-management.netlify.app/',
+            img: 'images/project-management.png',
+        },
 
         
     ]
