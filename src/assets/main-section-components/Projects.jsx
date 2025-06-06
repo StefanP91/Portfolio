@@ -135,7 +135,7 @@ const Projects = () => {
 
         {
             name: 'Business Analytics',
-            description: 'Landing page for Business Analytics Course',
+            description: 'Landing page for Business Analytics',
             languages: 'HTML, CSS, Bootstrap, JavaScript',
             link: 'https://business-analytics-course.netlify.app/',
             img: 'images/ba-course.png',
@@ -163,7 +163,7 @@ const Projects = () => {
             img: 'images/ai-business.png',
         },
         {
-            name: 'AI for Business',
+            name: 'Full Stack',
             description: 'Landing page for Full Stack Course',
             languages: 'HTML, CSS, Bootstrap, JavaScript',
             link: 'https://chk-full-stack.netlify.app/',
