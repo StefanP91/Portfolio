@@ -155,6 +155,20 @@ const Projects = () => {
             link: 'https://chk-project-management.netlify.app/',
             img: 'images/project-management.png',
         },
+        {
+            name: 'AI for Business',
+            description: 'Landing page for AI Business Course',
+            languages: 'HTML, CSS, Bootstrap, JavaScript',
+            link: 'https://chk-ai-for-business.netlify.app/',
+            img: 'images/ai-business.png',
+        },
+        {
+            name: 'AI for Business',
+            description: 'Landing page for Full Stack Course',
+            languages: 'HTML, CSS, Bootstrap, JavaScript',
+            link: 'https://chk-full-stack.netlify.app/',
+            img: 'images/full-stack.png',
+        },
 
         
     ]
