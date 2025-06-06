@@ -184,11 +184,11 @@ const AboutMe = () => {
                                     <ul>
                                         <h4>Creative Hub</h4> 
                                         <li className="text-start">
-                                            Junior Front-end Developer (Intern) 08.2024 - 11.2024
+                                            Front-end Developer (Intern) 08.2024 - 11.2024
                                         </li>
 
                                         <li className="text-start">
-                                            Junior Front-end Developer 12.2024 - Present
+                                            Full-Stack Developer 12.2024 - Present
                                         </li>
                                     </ul>
                                 </Card.Body>
