@@ -31,7 +31,10 @@ const AboutMe = () => {
                         I'm <span className="hero-name"></span>
                     </p>
                     <p className="about-me-description">
-                        A full-stack developer with a passion for creating beautiful, functional, responsive and SEO Optimized web applications.
+                        A detail-oriented full-stack developer who transforms ideas into reality through 
+                        clean code, intuitive UX/UI design, and SEO-optimized implementations. 
+                        I specialize in building responsive web applications that deliver 
+                        exceptional user experiences across all devices.                    
                     </p>
 
                     <h1 className="about-me-subheader">Skills</h1>
@@ -177,23 +180,52 @@ const AboutMe = () => {
 
                     <h1 className="about-me-subheader mt-5">Experience</h1>
                     <div>
-                    <Row data-aos="fade-right" data-aos-duration="1500">
-                        <Col md={6} className="offset-md-3">
-                            <Card>
-                                <Card.Body>
-                                    <ul>
-                                        <h4>Creative Hub</h4> 
-                                        <li className="text-start">
-                                            Front-end Developer (Intern) 08.2024 - 11.2024
-                                        </li>
+                    <Row className="g-3" data-aos="fade-right" data-aos-duration="1500">
+                        <Col md={6} xs={12}>
+                            <Card className="card-experience">
+                                <Card.Body>                
+                                    <h4>Front-end Developer (Intern)</h4> 
 
-                                        <li className="text-start">
-                                            Full-Stack Developer 12.2024 - Present
-                                        </li>
-                                    </ul>
+                                    <p className="text-start">
+                                        <strong>Creative Hub 08.2024 - 11.2024</strong>
+                                    </p>
+
+                                    <p className="text-start hidden-text">
+                                        <strong>Responsibilities:</strong> <br />
+                                        <ul className="custom-bullets">
+                                            <li>Developing responsive, SEO-optimized web interfaces that enhance user experience</li>
+                                            <li>Maintaining and improving three client-facing websites</li>
+                                            <li>Collaborating with cross-functional teams including Marketers and Designers</li>
+                                            <li>Implementing modern frontend technologies to create engaging web experiences</li>
+                                        </ul>
+                                    </p>                                    
                                 </Card.Body>
                             </Card>
-                        </Col>                      
+                        </Col>  
+                        <Col md={6}>
+                            <Card className="card-experience">
+                                <Card.Body>
+                                    <h4>Full-Stack Developer</h4> 
+                                    
+                                    <p className="text-start">
+                                        <strong>Creative Hub 12.2024 - Present</strong>
+                                    </p>
+
+                                    <p className="text-start hidden-text">
+                                        <strong>Responsibilities:</strong> <br />
+                                        <ul className="custom-bullets">
+                                            <li>Frontend work with React, HTML, CSS, Bootstrap, and JavaScript</li>
+                                            <li>Backend work with PHP</li>
+                                            <li>API development (both RESTful and GraphQL)</li>
+                                            <li>Database integration with MySQL</li>
+                                            <li>Version control management with Git and GitHub</li>
+                                            <li>Collaboration with designers and marketers to create user-friendly interfaces</li>
+                                            <li>SEO optimization for web applications</li>
+                                        </ul>
+                                    </p>
+                                </Card.Body>
+                            </Card>
+                        </Col>                     
                     </Row>
                     </div>
                 
