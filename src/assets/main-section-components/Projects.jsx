@@ -169,6 +169,20 @@ const Projects = () => {
             link: 'https://chk-full-stack.netlify.app/',
             img: 'images/full-stack.png',
         },
+        {
+            name: 'Tech Community',
+            description: 'Landing page for Tech Community',
+            languages: 'HTML, CSS, Bootstrap, JavaScript',
+            link: 'https://chk-tech-community.netlify.app/',
+            img: 'images/tech-community.png',
+        },
+        {
+            name: 'Homepage',
+            description: 'Homepage for Creative Hub Kosovo',
+            languages: 'HTML, CSS, Bootstrap, JavaScript',
+            link: 'https://chk-homepage.netlify.app/',
+            img: 'images/chk-homepage.png',
+        },
 
         
     ]
