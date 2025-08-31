@@ -2,13 +2,13 @@ import { useState } from 'react';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import Header from "./assets/components/Header"
-import Main from "./assets/components/Main"
-import Footer from "./assets/components/Footer"
-import Welcome from "./assets/components/Welcome";
+import Header from "./components/Header/Header"
+import Main from "./components/Main"
+import Footer from "./components/Footer/Footer"
+import Welcome from "./components/Welcome/Welcome";
 
 
-function App() {
+function Root() {
   const [showWelcome, setShowWelcome] = useState(true);
 
   const handleWelcomeComplete = () => {
@@ -30,4 +30,4 @@ function App() {
   )
 }
 
-export default App
+export default Root;

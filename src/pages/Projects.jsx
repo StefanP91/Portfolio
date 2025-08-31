@@ -1,10 +1,11 @@
 import { Col, Container, Row } from "react-bootstrap"
 import { useState } from "react"
 import { useEffect } from "react";
+import { motion } from "framer-motion";
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import '../../index.css'
+import style from '../shared/styles/Pages.module.css'
 
 const Projects = () => {
 
@@ -177,11 +178,26 @@ const Projects = () => {
             img: 'images/tech-community.png',
         },
         {
-            name: 'Homepage',
+            name: 'CH Landing page',
             description: 'Homepage for Creative Hub Kosovo',
             languages: 'HTML, CSS, Bootstrap, JavaScript',
             link: 'https://chk-homepage.netlify.app/',
             img: 'images/chk-homepage.png',
+        },
+        {
+            name: 'AI Conference',
+            description: 'Landing Page for AI Conference',
+            languages: 'HTML, CSS, Bootstrap, JavaScript',
+            link: 'https://chk-ai-conference.netlify.app/',
+            img: 'images/ai-conference.png',
+        },
+
+        {
+            name: 'AI Executive Workshop',
+            description: 'Landing Page for AI Executive Workshop',
+            languages: 'HTML, CSS, Bootstrap, JavaScript',
+            link: 'https://ai-executive-workshop.netlify.app/',
+            img: 'images/ai-executive-workshop.png',
         },
 
         
@@ -200,14 +216,14 @@ const Projects = () => {
     function Project({ project }) {
     
         return (
-            <div className="project" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="linear">
-                <img className="project-img" src={project.img} alt={project.name} />
-                <div className="project-description">
-                    <h2 className="project-title">{project.name}</h2>
+            <div className={style.projects} data-aos="fade-up" data-aos-duration="1500" data-aos-easing="linear">
+                <img className={style.projectImg} src={project.img} alt={project.name} />
+                <div className={style.projectDescription}>
+                    <h2 className={style.projectTitle}>{project.name}</h2>
                     <p>{project.description}</p>
-                    <p> <span className="project-languages">Languages:</span> {project.languages}</p>
+                    <p> <span className={style.projectLanguages}>Languages:</span> {project.languages}</p>
                     <a href={project.link} target="_blank">
-                        <button className="project-btn">Visit</button>
+                        <button className={style.projectBtn}>Visit</button>
                     </a>
                 </div>
             </div>
@@ -216,15 +232,19 @@ const Projects = () => {
     }
 
     return (
-        <>
-            <div className="project-section" id="projects">
+        <motion.div
+            initial={{ opacity: 0, scale: 0.98 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.5, ease: [0.4, 0, 0.2, 1] }} 
+        >
+            <div className={style.page}>
                 <Container>
-                    <h1 className="project-header">Projects</h1>
+                    <h1 className={style.title}>Projects</h1>
                     <Row>
                         <Col xs={12} md={3}>
-                            <div className="projects-left-side">
+                            <div className={style.projectsLeftSide}>
 
-                                <ul className="project-list">
+                                <ul className={style.projectList}>
                                     {projects.map(project => 
                                     <li 
                                         key={project.name} 
@@ -239,14 +259,14 @@ const Projects = () => {
                             </div>
                         </Col>
                         <Col xs={12} md={9}>
-                            <div className="projects-right-side">
+                            <div className={style.projectsRightSide}>
                                 {selectedProject ? (
                                     <Project project={selectedProject}  />
                                 ) 
                                 
                                 : 
                                 (
-                                    <p className="project-right-side-intro-text">Select a project to see details</p>
+                                    <p className={style.projectRightSideIntroText}>Select a project to see details</p>
                                 )
                                 }
                             </div>
@@ -255,7 +275,7 @@ const Projects = () => {
 
                 </Container>
             </div>
-        </>
+        </motion.div>
     )
 }
 

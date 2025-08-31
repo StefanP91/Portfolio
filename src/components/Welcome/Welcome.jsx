@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { TypeAnimation } from 'react-type-animation';
-import '../../index.css'
+
+import styles from './Welcome.module.css';
 
 const Welcome = ({ onComplete }) => {
   const [progress, setProgress] = useState(0);
@@ -27,13 +28,13 @@ const Welcome = ({ onComplete }) => {
 
   return (
     <motion.div 
-      className="welcome-container"
+      className={styles.welcomeContainer}
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
     >
       <motion.div
-        className="welcome-logo"
+        className={styles.welcomeLogo}
         initial={{ scale: 0.5, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
         transition={{ duration: 0.8 }}
@@ -42,7 +43,7 @@ const Welcome = ({ onComplete }) => {
       </motion.div>
 
       <motion.div 
-        className="welcome-message"
+        className={styles.welcomeMessage}
         initial={{ y: 20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.5, duration: 0.8 }}
@@ -63,9 +64,9 @@ const Welcome = ({ onComplete }) => {
         />
       </motion.div>
 
-      <div className="progress-container">
+      <div className={styles.progressContainer}>
         <div 
-          className="progress-bar" 
+          className={styles.progressBar} 
           style={{ width: `${progress}%` }}
         ></div>
       </div>

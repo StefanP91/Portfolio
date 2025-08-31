@@ -6,8 +6,9 @@ import { BsLinkedin } from "react-icons/bs";
 
 import { useState } from "react";
 import * as emailjs from 'emailjs-com';
+import { motion } from "framer-motion";
 
-import '../../index.css'
+import style from "../shared/styles/Pages.module.css";
 
 
 const ContactMe = () => {
@@ -47,38 +48,41 @@ const ContactMe = () => {
         }
     };
     return (
-        <>
-
-            <div className="contact-section" id="contactMe">
+        <motion.div
+            initial={{ opacity: 0, scale: 0.98 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.5, ease: [0.4, 0, 0.2, 1] }}
+        >
+            <div className={style.page}>
                 <Container>
-                    <h1 className="contact-header">Contact Me</h1>
+                    <h1 className={style.title}>Contact Me</h1>
 
                     <Row className="g-3">
                         <Col md={6}>
-                            <div className="contact-info">
+                            <div className={style.contactInfo}>
                                 <h2>Contact Info</h2>
-                                <div className="contact-info-details">
+                                <div className={style.contactInfoDetails}>
                                     <div className="hstack gap-3">
-                                        <span className="icon"><MdEmail /></span>
+                                        <span className={style.icon}><MdEmail /></span>
                                         <span>panov.office91@gmail.com</span>    
                                     </div>
                                     <div className="hstack gap-3">
-                                        <span className="icon"><MdOutlinePhoneAndroid /></span>
+                                        <span className={style.icon}><MdOutlinePhoneAndroid /></span>
                                         <span>+38978384409</span>    
                                     </div>
                                     <div className="hstack gap-3">
-                                        <span className="icon"><FaLocationDot /></span>
+                                        <span className={style.icon}><FaLocationDot /></span>
                                         <span>Veles, Macedonia</span>    
                                     </div>
                                     <a href="https://www.linkedin.com/in/stefan-panov-61a64b144/">
                                         <div className="hstack gap-3">
-                                            <span className="icon"><BsLinkedin /></span>
+                                            <span className={style.icon}><BsLinkedin /></span>
                                             <span>LinkedIn</span>    
                                         </div>
                                     </a>
                                     <a href="https://github.com/StefanP91">
                                         <div className="hstack gap-3">
-                                            <span className="icon"><FaGithub /></span>
+                                            <span className={style.icon}><FaGithub /></span>
                                             <span>Git Hub</span>    
                                         </div>
                                     </a>
@@ -87,14 +91,14 @@ const ContactMe = () => {
                         </Col>
 
                     <Col md={6}>
-                        <div className="contact-form" id="contactForm">
+                        <div className={style.contactForm} id="contactForm">
                             <h2>Send me a message</h2>
                             <form onSubmit={handleSubmit}>
                                 <div className="form-group mb-3">
                                     {/* <label htmlFor="name">Name</label> */}
                                     <input
                                         type="text"
-                                        className="form-control"
+                                        className={`form-control ${style.formInput}`}
                                         id="name"
                                         name="name"
                                         placeholder="Enter your name"
@@ -107,7 +111,7 @@ const ContactMe = () => {
                                     {/* <label htmlFor="email">Email</label> */}
                                     <input
                                         type="email"
-                                        className="form-control"
+                                        className={`form-control ${style.formInput}`}
                                         id="email"
                                         name="email"
                                         placeholder="Enter your email"
@@ -119,7 +123,7 @@ const ContactMe = () => {
                                 <div className="form-group mb-3">
                                     {/* <label htmlFor="message">Message</label> */}
                                     <textarea
-                                        className="form-control"
+                                        className={`form-control ${style.formInput}`}
                                         id="message"
                                         name="message"
                                         rows="5"
@@ -129,7 +133,7 @@ const ContactMe = () => {
                                         required
                                     ></textarea>
                                 </div>
-                                <button type="submit" className="form-btn">Send</button>
+                                <button type="submit" className={style.formBtn}>Send</button>
                             </form>
                             {status && <p className="text-white fw-bold mt-3">{status}</p>}
                         </div>
@@ -138,7 +142,7 @@ const ContactMe = () => {
                 </Container>
             </div>
 
-        </>
+        </motion.div>
     )
 }
 export default ContactMe
