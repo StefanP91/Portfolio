@@ -20,7 +20,7 @@ const Hero = () => {
                     </Col>
                     <Col xs={12} md={6}>
                         <div className={style.rightSide}>
-                            <img className={style.heroImg} src="images/hero.jpg" alt="hero" />
+                            <img className={style.heroImg} src="images/Stefan Panov- Final1.png" alt="hero" />
                         </div>
                     </Col>
                 </Row>
