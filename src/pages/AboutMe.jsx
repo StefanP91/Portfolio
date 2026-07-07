@@ -141,7 +141,7 @@ const AboutMe = () => {
                             </Col>
 
                             <Col md={3} xs={12}>
-                                <Card className={style.cardLearning}>
+                                <Card className={style.cardSkills}>
                                     <Card.Body>
                                         <Card.Title><FaLaravel /> Laravel</Card.Title>
                                     </Card.Body>
